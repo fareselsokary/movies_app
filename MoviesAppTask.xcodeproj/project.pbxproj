@@ -21,7 +21,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		62D570722F9A21BB007D4ABB /* Movies (DEBUG).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Movies (DEBUG).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62D570722F9A21BB007D4ABB /* Movies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Movies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62FC48B82F9CB5B50023B118 /* MoviesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoviesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -82,7 +82,7 @@
 		62D570732F9A21BB007D4ABB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				62D570722F9A21BB007D4ABB /* Movies (DEBUG).app */,
+				62D570722F9A21BB007D4ABB /* Movies.app */,
 				62FC48B82F9CB5B50023B118 /* MoviesTests.xctest */,
 			);
 			name = Products;
@@ -111,7 +111,7 @@
 				62D577E72F9A4DDF007D4ABB /* Kingfisher */,
 			);
 			productName = MoviesAppTask;
-			productReference = 62D570722F9A21BB007D4ABB /* Movies (DEBUG).app */;
+			productReference = 62D570722F9A21BB007D4ABB /* Movies.app */;
 			productType = "com.apple.product-type.application";
 		};
 		62FC48B72F9CB5B50023B118 /* MoviesTests */ = {
@@ -370,7 +370,8 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.fares.MoviesAppTask;
-				PRODUCT_NAME = "Movies (DEBUG)";
+				PRODUCT_MODULE_NAME = MoviesAppTask;
+				PRODUCT_NAME = Movies;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
@@ -408,6 +409,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.fares.MoviesAppTask;
+				PRODUCT_MODULE_NAME = MoviesAppTask;
 				PRODUCT_NAME = Movies;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -427,16 +429,18 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SQPBX26AMP;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.fares.MoviesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Movies (DEBUG).app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Movies (DEBUG)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Movies.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Movies";
 			};
 			name = Debug;
 		};
@@ -448,16 +452,18 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SQPBX26AMP;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.fares.MoviesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Movies (DEBUG).app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Movies (DEBUG)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Movies.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/";
 			};
 			name = Release;
 		};
